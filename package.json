@@ -1,7 +1,8 @@
+
 {
-  "name": "tradingview-ta-api",
-  "version": "1.0.0",
-  "description": "Parallel Real-time TradingView Candle and Technical Signal API",
+  "name": "tradingview-enterprise-api",
+  "version": "1.1.0",
+  "description": "Production ready secure TradingView API with caching and rate limiting",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -11,6 +12,7 @@
   },
   "dependencies": {
     "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
     "@mathieuc/tradingview": "^3.5.2"
   }
 }
