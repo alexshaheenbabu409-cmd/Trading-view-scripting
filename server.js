@@ -1,4 +1,4 @@
-Const express = require('express');
+const express = require('express');
 const TradingView = require('@mathieuc/tradingview');
 
 const app = express();
